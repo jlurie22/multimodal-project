@@ -4,8 +4,8 @@ import headerPic from '../corona-logo.png';
 
 export default function Header({ name }) {
   return (
-    <header style="width: 50px; height: 50px;" className="pt-20 pb-12">
-      <div className="block mx-auto mb-4">
+    <header className="pt-20 pb-12">
+      <div className="w-50 h-50 block mx-auto mb-4">
         <Image src={headerPic} alt="COVID-19 Icon" />
       </div>
       <p className="text-2xl dark:text-white text-center">
