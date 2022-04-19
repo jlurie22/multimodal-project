@@ -5,7 +5,7 @@ import headerPic from '../corona-logo.png';
 export default function Header({ name }) {
   return (
     <header className="pt-20 pb-12">
-      <Image src={headerPic} alt="COVID-19 Icon" width={12} height={12} className="mb-4" />
+      <Image src={headerPic} alt="COVID-19 Icon" className="mb-4" />
       <p className="text-2xl dark:text-white text-center">
         <Link href="/">
           <a>{name}</a>
