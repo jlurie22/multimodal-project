@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import headerPic from '../corona-logo.png';
 
 export default function Header({ name }) {
   return (
     <header className="pt-20 pb-12">
-      <img src="corona-logo.png" class="w-12 h-12 mx-auto mb-4" />
+      <Image src={headerPic} alt="COVID-19 Icon" width={12} height={12} className="mb-4" />
       <p className="text-2xl dark:text-white text-center">
         <Link href="/">
           <a>{name}</a>
